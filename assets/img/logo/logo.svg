@@ -1,0 +1,35 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo Aloha Drinks">
+      <defs>
+            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FFD166" />
+                  <stop offset="50%" stop-color="#FF9F1C" />
+                  <stop offset="100%" stop-color="#FF6B00" />
+            </linearGradient>
+            <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+                  <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#FF9F1C" flood-opacity="0.12"/>
+            </filter>
+      </defs>
+
+      <!-- Outer ring with gradient -->
+      <circle cx="150" cy="110" r="68" fill="url(#g1)" filter="url(#softShadow)" />
+
+      <!-- Inner white badge -->
+      <circle cx="150" cy="110" r="58" fill="#FFFFFF" />
+
+      <!-- Stylized cocktail (glass) -->
+      <g transform="translate(0,6)">
+            <path d="M120 95 L115 170 Q115 180 125 185 L175 185 Q185 180 185 170 L180 95 Z"
+                              fill="none" stroke="#FF6B00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M125 120 L175 120 Q170 145 150 155 Q130 145 125 120 Z"
+                              fill="#FFB347" opacity="0.95"/>
+            <line x1="150" y1="92" x2="150" y2="60" stroke="#FF6B00" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="158" cy="68" r="12" fill="#FF9F1C" stroke="#FFFFFF" stroke-width="1.5"/>
+      </g>
+
+      <!-- Brand text -->
+      <text x="150" y="200" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="22" font-weight="700"
+                        text-anchor="middle" fill="#3A1F12">ALOHA</text>
+      <text x="150" y="222" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="700"
+                        text-anchor="middle" fill="#FF6B00">DRINKS</text>
+
+</svg>

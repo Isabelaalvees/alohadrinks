@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Conheça o cardápio da Aloha Drinks com opções clássicas, tropicais, gin, vodka, rum e drinks sem álcool para eventos."
+    >
+
+    <title>Cardápio | Aloha Drinks</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Página inicial da Aloha Drinks">
+                <img src="assets/img/logo/logo.svg" alt="Aloha Drinks">
+            </a>
+
+            <nav class="navbar" aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="cardapio.html" class="active" aria-current="page">Cardápio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="contato.html" class="btn-header">
+                Solicitar Orçamento
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-page">
+            <div class="container">
+                <span class="subtitulo">Nosso Cardápio</span>
+
+                <h1>Drinks preparados para impressionar.</h1>
+
+                <p>
+                    Escolha entre clássicos, autorais e opções sem álcool. O cardápio
+                    final pode ser personalizado para combinar com o estilo do seu evento.
+                </p>
+            </div>
+        </section>
+
+        <section aria-labelledby="filtros-cardapio">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitulo">Categorias</span>
+                    <h2 id="filtros-cardapio">Encontre o drink ideal</h2>
+                    <p>
+                        Use os filtros para visualizar opções por base alcoólica ou estilo.
+                    </p>
+                </div>
+
+                <div class="categorias" aria-label="Filtrar drinks">
+                    <button type="button" class="active" data-filter="todos">Todos</button>
+                    <button type="button" data-filter="classicos">Clássicos</button>
+                    <button type="button" data-filter="gin">Gin</button>
+                    <button type="button" data-filter="vodka">Vodka</button>
+                    <button type="button" data-filter="rum">Rum</button>
+                    <button type="button" data-filter="sem-alcool">Sem álcool</button>
+                </div>
+
+                <p class="cardapio-count" aria-live="polite"></p>
+
+                <div class="drinks-grid">
+                    <article class="drink" data-category="vodka classicos">
+                        <div class="drink-visual" aria-hidden="true">🔥</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Mais pedido</span>
+                            <h3>Moscow Mule</h3>
+                            <p class="drink-categoria">Vodka</p>
+                            <p class="drink-ingredientes">Vodka, gengibre, limão e espuma cítrica.</p>
+                            <p class="drink-descricao">
+                                Refrescante, marcante e perfeito para eventos modernos.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Moscow Mule">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="rum classicos">
+                        <div class="drink-visual" aria-hidden="true">🌿</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Refrescante</span>
+                            <h3>Mojito</h3>
+                            <p class="drink-categoria">Rum</p>
+                            <p class="drink-ingredientes">Rum, hortelã, limão, açúcar e água com gás.</p>
+                            <p class="drink-descricao">
+                                Leve, aromático e ótimo para celebrações durante o dia.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Mojito">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="gin">
+                        <div class="drink-visual" aria-hidden="true">✨</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Premium</span>
+                            <h3>Gin Tônica</h3>
+                            <p class="drink-categoria">Gin</p>
+                            <p class="drink-ingredientes">Gin, água tônica, especiarias e cítricos.</p>
+                            <p class="drink-descricao">
+                                Elegante, versátil e fácil de personalizar com frutas e aromas.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Gin Tônica">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="classicos">
+                        <div class="drink-visual" aria-hidden="true">🇧🇷</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Tradicional</span>
+                            <h3>Caipirinha</h3>
+                            <p class="drink-categoria">Clássicos</p>
+                            <p class="drink-ingredientes">Cachaça, limão, açúcar e gelo.</p>
+                            <p class="drink-descricao">
+                                Um clássico brasileiro que combina com festas de todos os tamanhos.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Caipirinha">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="vodka">
+                        <div class="drink-visual" aria-hidden="true">🍓</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Sucesso</span>
+                            <h3>Sex on the Beach</h3>
+                            <p class="drink-categoria">Vodka</p>
+                            <p class="drink-ingredientes">Vodka, pêssego, laranja e frutas vermelhas.</p>
+                            <p class="drink-descricao">
+                                Colorido, frutado e muito pedido em aniversários e formaturas.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Sex on the Beach">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="rum">
+                        <div class="drink-visual" aria-hidden="true">🥥</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Tropical</span>
+                            <h3>Piña Colada</h3>
+                            <p class="drink-categoria">Rum</p>
+                            <p class="drink-ingredientes">Rum, coco, abacaxi e creme.</p>
+                            <p class="drink-descricao">
+                                Cremosa, tropical e perfeita para quem gosta de drinks doces.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Piña Colada">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="sem-alcool">
+                        <div class="drink-visual" aria-hidden="true">🍍</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Sem álcool</span>
+                            <h3>Tropical Fresh</h3>
+                            <p class="drink-categoria">Sem álcool</p>
+                            <p class="drink-ingredientes">Abacaxi, hortelã, limão e água com gás.</p>
+                            <p class="drink-descricao">
+                                Opção refrescante para crianças, gestantes e convidados que não bebem.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Tropical Fresh sem álcool">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="drink" data-category="sem-alcool classicos">
+                        <div class="drink-visual" aria-hidden="true">🍋</div>
+
+                        <div class="drink-content">
+                            <span class="tag-drink">Leve</span>
+                            <h3>Pink Lemonade</h3>
+                            <p class="drink-categoria">Sem álcool</p>
+                            <p class="drink-ingredientes">Limão, frutas vermelhas, açúcar e água com gás.</p>
+                            <p class="drink-descricao">
+                                Bonita no copo, cítrica na medida e ótima para recepções.
+                            </p>
+
+                            <div class="drink-footer">
+                                <a href="contato.html" class="btn-secondary" data-drink="Pink Lemonade sem álcool">
+                                    Pedir no orçamento
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitulo">Próximos passos</span>
+
+                    <h2>Gostou do nosso cardápio?</h2>
+
+                    <p>
+                        Solicite um orçamento personalizado e monte uma seleção de drinks
+                        alinhada ao estilo do seu evento.
+                    </p>
+
+                    <a href="contato.html" class="btn-primary">
+                        Solicitar orçamento agora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Aloha Drinks</h3>
+                <p>
+                    Transformando eventos em experiências inesquecíveis com drinks
+                    exclusivos e atendimento profissional.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Links rápidos</h4>
+                <ul>
+                    <li><a href="index.html#home">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Redes sociais</h4>
+                <div class="social-links">
+                    <a href="https://wa.me/5519989390282" target="_blank" rel="noopener noreferrer" class="social-icon">WhatsApp</a>
+                    <a href="https://www.instagram.com/alohadrinks" target="_blank" rel="noopener noreferrer" class="social-icon">Instagram</a>
+                    <a href="mailto:isabela.al8008@gmail.com" class="social-icon">E-mail</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>(19) 98939-0282</p>
+                <p>Limeira - SP</p>
+                <p>Segunda a Sexta • 08h às 18h</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aloha Drinks. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

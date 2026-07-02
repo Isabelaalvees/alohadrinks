@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aloha Drink's</title>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/responsive.css" rel="stylesheet"/>
+<link href="assets/img/logo/favicon.png" rel="icon"/>
+</head>
+<body>
+<!-- ================= HEADER ================= -->
+<header id="header">
+  <div class="container">
+    <a class="logo" href="#">
+      <img alt="Logo Aloha Drinks" src="assets/img/logo/logo.svg"/>
+    </a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="btn-header" href="#contato">Solicitar Orçamento</a>
+  </div>
+</header>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <span class="tag">Aloha Drinks</span>
+      <h1>Transforme seu evento em uma experiência inesquecível.</h1>
+      <p>Drinks exclusivos, atendimento personalizado e uma estrutura completa para casamentos, aniversários, formaturas e eventos corporativos.</p>
+      <div class="hero-buttons">
+        <a class="btn-primary" href="#contato">Solicitar Orçamento</a>
+        <a class="btn-secondary" href="#cardapio">Ver Cardápio</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img alt="Logo Aloha Drinks" src="assets/img/logo/logo.svg"/>
+    </div>
+  </div>
+</section>
+<!-- ================= SOBRE ================= -->
+<section id="sobre">
+  <div class="container sobre-container">
+    <div class="sobre-imagem">
+      <div class="image-placeholder">Foto do Bartender</div>
+    </div>
+    <div class="sobre-texto">
+      <span class="subtitulo">Sobre Nós</span>
+      <h2>Mais do que drinks, criamos experiências memoráveis.</h2>
+      <p>Atuamos com bartenders profissionais para levar elegância, diversão e qualidade ao seu evento. Cada drink é preparado com ingredientes selecionados e muito cuidado para proporcionar uma experiência única aos seus convidados.</p>
+      <p>Seja um casamento, aniversário, formatura ou evento corporativo, nossa missão é oferecer um atendimento personalizado e tornar cada momento ainda mais special.</p>
+      <a class="btn-primary" href="sobre.html">Conheça nossa história</a>
+    </div>
+  </div>
+</section>
+<!-- ================= SERVIÇOS ================= -->
+<section id="servicos">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitulo">Nossos Serviços</span>
+      <h2>Atendimento completo para todos os tipos de eventos</h2>
+      <p>Levamos uma experiência completa de bar para tornar seu evento ainda mais especial, com drinks preparados na hora e atendimento profissional.</p>
+    </div>
+    <div class="servicos-grid">
+      <div class="servico-card">
+        <div class="servico-icon">💍</div>
+        <h3>Casamentos</h3>
+        <p>Um bar sofisticado para tornar um dos dias mais importantes da sua vida ainda mais inesquecível.</p>
+      </div>
+      <div class="servico-card">
+        <div class="servico-icon">🎂</div>
+        <h3>Aniversários</h3>
+        <p>Drinks personalizados para comemorar com amigos e familiares em grande estilo.</p>
+      </div>
+      <div class="servico-card">
+        <div class="servico-icon">🏢</div>
+        <h3>Eventos Corporativos</h3>
+        <p>Atendimento profissional para empresas, confraternizações, lançamentos e eventos exclusivos.</p>
+      </div>
+      <div class="servico-card">
+        <div class="servico-icon">🎓</div>
+        <h3>Formaturas</h3>
+        <p>Celebre essa conquista com um bar completo e drinks que vão marcar esse momento especial.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ================= CARDÁPIO ================= -->
+<section id="cardapio">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitulo">Nosso Cardápio</span>
+      <h2>Drinks preparados para impressionar</h2>
+      <p>Conheça alguns dos drinks disponíveis para tornar seu evento ainda mais especial.</p>
+    </div>
+    <!-- Categorias -->
+    <div class="categorias">
+      <button type="button" class="active" data-filter="todos">Todos</button>
+      <button type="button" data-filter="classicos">Clássicos</button>
+      <button type="button" data-filter="gin">Gin</button>
+      <button type="button" data-filter="vodka">Vodka</button>
+      <button type="button" data-filter="rum">Rum</button>
+    </div>
+<!-- Drinks -->
+<div class="drinks-grid">
+  <div class="drink" data-category="vodka classicos">
+    <div class="drink-visual" aria-hidden="true">🔥</div>
+    <div class="drink-content">
+      <span class="tag-drink">🔥 Mais Pedido</span>
+      <h3>Moscow Mule</h3>
+      <p>Clássico</p>
+    </div>
+  </div>
+  <div class="drink" data-category="rum classicos">
+    <div class="drink-visual" aria-hidden="true">🌿</div>
+    <div class="drink-content">
+      <span class="tag-drink">🍃 Refrescante</span>
+      <h3>Mojito</h3>
+      <p>Clássico</p>
+    </div>
+  </div>
+  <div class="drink" data-category="gin">
+    <div class="drink-visual" aria-hidden="true">✨</div>
+    <div class="drink-content">
+      <span class="tag-drink">✨ Premium</span>
+      <h3>Gin Tônica</h3>
+      <p>Gin</p>
+    </div>
+  </div>
+  <div class="drink" data-category="vodka">
+    <div class="drink-visual" aria-hidden="true">🍓</div>
+    <div class="drink-content">
+      <span class="tag-drink">🍓 Sucesso</span>
+      <h3>Sex on the Beach</h3>
+      <p>Vodka</p>
+    </div>
+  </div>
+  <div class="drink" data-category="rum">
+    <div class="drink-visual" aria-hidden="true">🥥</div>
+    <div class="drink-content">
+      <span class="tag-drink">🥥 Tropical</span>
+      <h3>Piña Colada</h3>
+      <p>Rum</p>
+    </div>
+  </div>
+  <div class="drink" data-category="classicos">
+    <div class="drink-visual" aria-hidden="true">🇧🇷</div>
+    <div class="drink-content">
+      <span class="tag-drink">🇧🇷 Tradicional</span>
+      <h3>Caipirinha</h3>
+      <p>Brasileiro</p>
+    </div>
+  </div>
+</div>
+    <div class="cardapio-btn">
+      <a class="btn-primary" href="cardapio.html">Ver Cardápio Completo →</a>
+    </div>
+  </div>
+</section>
+<!-- ================= CONTATO ================= -->
+
+<section id="cta">
+  <div class="container" style="text-align:center;">
+    <h2>Vamos transformar seu evento em uma experiência inesquecível?</h2>
+    <p>Solicite um orçamento sem compromisso e receba um atendimento personalizado.</p>
+    <a class="btn-primary" href="contato.html">Solicitar Orçamento</a>
+  </div>
+</section>
+<section id="contato">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitulo">Contato</span>
+      <h2>Vamos tornar seu evento inesquecível?</h2>
+      <p>Entre em contato para solicitar um orçamento ou tirar dúvidas. Será um prazer fazer parte do seu evento.</p>
+    </div>
+    <div class="contato-container">
+      <!-- Informações -->
+      <div class="contato-info">
+        <div class="info-card">
+          <h3>📱 WhatsApp</h3>
+          <p>(19) 98939-0282</p>
+        </div>
+        <div class="info-card">
+          <h3>📧 E-mail</h3>
+          <p>isabela.al8008@gmail.com</p>
+        </div>
+        <div class="info-card">
+          <h3>📍 Atendemos</h3>
+          <p>Limeira e região</p>
+        </div>
+        <div class="info-card">
+          <h3>📸 Instagram</h3>
+          <p>@alohadrinks</p>
+        </div>
+      </div>
+      <!-- Formulário -->
+<div class="contato-form">
+  <form class="whatsapp-form">
+    <div class="form-row">
+      <input name="nome" placeholder="Nome completo" required="" type="text"/>
+      <input name="email" placeholder="E-mail" type="email" required=""/>
+    </div>
+    <div class="form-row">
+      <input name="telefone" placeholder="WhatsApp" required="" type="tel"/>
+      <input name="data_evento" placeholder="Data do evento" type="date" required=""/>
+    </div>
+    <div class="form-row">
+      <select name="tipo_evento" required="" placeholder="Tipo de evento">
+        <option value="">Selecione o tipo de evento</option>
+        <option value="casamento">Casamento</option>
+        <option value="aniversario">Aniversário</option>
+        <option value="corporativo">Evento Corporativo</option>
+        <option value="formatura">Formatura</option>
+        <option value="outro">Outro</option>
+      </select>
+      <input name="convidados" placeholder="Quantidade de convidados" type="number" required=""/>
+    </div>
+    <textarea name="mensagem" placeholder="Descrição do evento (ambiente, tema, drinks preferidos, etc...)" rows="6" required=""></textarea>
+    <button class="btn-primary" type="submit">Solicitar Orçamento</button>
+  </form>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container footer-content">
+    <div class="footer-section">
+      <h3>Aloha Drinks</h3>
+      <p>Transformando eventos em experiências inesquecíveis com drinks exclusivos e atendimento profissional.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Links Rápidos</h4>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Redes Sociais</h4>
+      <div class="social-links">
+        <a href="https://wa.me/5519989390282" target="_blank" rel="noopener noreferrer" class="social-icon">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/alohadrinks" target="_blank" rel="noopener noreferrer" class="social-icon">📸 Instagram</a>
+        <a href="mailto:isabela.al8008@gmail.com" class="social-icon">📧 E-mail</a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h4>Contato</h4>
+      <p>📱 (19) 98939-0282</p>
+      <p>📍 Limeira - SP</p>
+      <p>Segunda a Sexta • 08h às 18h</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Aloha Drinks. Todos os direitos reservados.</p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
